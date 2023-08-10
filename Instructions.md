@@ -130,7 +130,11 @@ Dans la méthode de construction de la classe, **prévoir** un dispositif pour �
 + Ajouter une méthode `__lt__` qui permet de comparer deux dates. L'expression `d1 < d2` (`d1` et `d2` étant deux objets de type `Date`) doit grâce à cette méthode renvoyer `True` ou `False`
 
 ### Exercice 13
-
+&Eacute;crire la définition de la classe `Personne` ayant trois attributs définissant certaines caractéristiques d'une personne réelle : `taille`,`poids` et `age`.
+Cette classe aura : 
++ une méthode `imc()` qui détermine l'**IMC** de la personne,
++ une méthode `interpretation()` qui affiche "Insuffisance pondérale" si l'IMC est inférieur ou égale à 18,5 et qui affiche "obésité" si l'IMC est supérieur ou égale à 30.
+Rappel : l'IMC(Indice de masse corporelle) est donné par la formule *poids/taille&sup2;* avec le poids en kg et la taille en m
 
 ### Exercice 14
 
