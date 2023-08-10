@@ -3,7 +3,7 @@
 ## Consignes 
 + Pour chaque exercice, créer un fichier .py unique
 + Mettre des commentaires appropriés à chaque étape
-+ Tu ne dois modifier que la branche `ariel`.
++ Tu ne dois modifier que la branche `ton_nom`.
 + Les remarques et exercices supplémentaires seront ajoutés dans la branche `main`.
 ## Exercices
 
@@ -17,7 +17,7 @@ centimes et les suivantes à 8 centimes.
 2. Écrire une fonction prix(n) qui renvoie le prix en euros pour n photocopies. La tester.
 
 ### Exercice 3
-Voici deux fonctions nommées truc et bidule.
+Voici deux fonctions nommées truc et bidule. (Par défaut j'utilise Python)
 ```python
 def truc(x):
     print(x)
