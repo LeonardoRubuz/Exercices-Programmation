@@ -1,4 +1,4 @@
-# Exercices Python
+# Exercices JavaScript
 
 ## Consignes 
 + Pour chaque exercice, créer un fichier .py unique
@@ -18,20 +18,21 @@ centimes et les suivantes à 8 centimes.
 
 ### Exercice 3
 Voici deux fonctions nommées truc et bidule.
-```python
-def truc(x):
-    print(x)
-    return(2*x)
-    print(3*x)
-    return(4*x)
 
-def bidule(x):
-    print(x)
-    print(2*x)
-    return(3*x)
-    print(4*x)    
+```javascript
+function truc(x) {
+    console.log(x);
+    return 2*x;
+    console.log(3*x);
+    return 4*x;
+}
+function bidule(x){
+    console.log(x);
+    console.log(4*x);
+    return 3*x
+    console.log(4*x);
+}
 ```
-
 
 On exécute truc(10).
 1. Quelle(s) valeur(s) (est) sont affichée(s)? Quelle valeur est renvoyée?
@@ -88,12 +89,12 @@ Par exemple, somme_cubes_chiffres(256) devra renvoyer
 2. Écrire un script qui détermine les nombres d’Amstrong inférieurs à 10 000.
 
 ### Exercice 8
-Ecrire un programme en langage Python qui demande à l’utilisateur de saisir un nombre entier
+Ecrire un programme en langage JavaScript qui demande à l’utilisateur de saisir un nombre entier
 n et de lui afficher si ce nombre est carré parfait ou non.
 
 
 ### Exercice 9
-Ecrire un programme en Python qui demande à l’utilisateur de saisir une chaine de caractère s
+Ecrire un programme en JavaScript qui demande à l’utilisateur de saisir une chaine de caractère s
 et de lui renvoyer un message indiquant si la chaine contient la lettre ‘a’ tout en indiquant sa
 position sur la chaine. Exemple si l’utilisateur tape la chaine s = ‘langage’ le programme lui
 renvoie :
@@ -102,20 +103,20 @@ La lettre ‘a’ se trouve à la position : 1 La lettre ‘a’ se trouve à la
 ```
 
 ### Exercice 10
-Ecrire un programme en langage Python, qui permet de compter le nombre de voyelles et de consonnes dans
+Ecrire un programme en langage JavaScript, qui permet de compter le nombre de voyelles et de consonnes dans
 une chaine donnée. Exemple pour la chaine s= `‘anticonstitutionellement’` le programme doit
 renvoyer le message suivant :
 ```
  La chaine anticonstitutionellement possède 10 voyelles.
 ```
 ### Exercice 11
-Ecrire un programme Python qui permet d’échanger le premier et le dernier mot. Exemple si la chaîne est:
+Ecrire un programme JavaScript qui permet d’échanger le premier et le dernier mot. Exemple si la chaîne est:
 ```
- “Python est un langage de programmation”.
+ “JavaScript est un langage de programmation”.
 ```
 , le programme renvoie la chaine :
 ```
- “programmation est un langage de Python”.
+ “programmation est un langage de JavaScript”.
 ```
 On suppose que le texte est bien formé ( un
 espace après chaque ponctuation et aucun espace avant la ponctuation)
@@ -129,7 +130,7 @@ jour : int  |
 mois : int  |
 année : int |
 
-+ Implémenter cette classe en Python.
++ Implémenter cette classe en JavaScript.
 Dans la méthode de construction de la classe, **prévoir** un dispositif pour éviter les dates impossibles (du genre 32/14/2020). Dans ce cas, la création doit provoquer une erreur, chose possible grâce à l'instruction `raise` (documentation à rechercher!)
 
 + Ajouter une méthode `__repr__` permettant d'afficher la date sous la forme "25 janvier 1989". Les noms des mois seront définis en tant qu'attribut de classe à l'aide d'une liste.
