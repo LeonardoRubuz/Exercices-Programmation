@@ -5,6 +5,10 @@
 + Mettre des commentaires appropriés à chaque étape
 + Tu ne dois modifier que la branche `ton_nom`.
 + Les remarques et exercices supplémentaires seront ajoutés dans la branche `main`.
++ Adapter ces exercices en fonction du langage de programmation que vous maîtrisez:
+    - Pour Ariel: `Python`
+    - Pour Jordan et Dan : `PHP`
+    - Pour Josué : `JavaScript`
 ## Exercices
 
 ### Exercice 1
@@ -36,6 +40,7 @@ def bidule(x):
 On exécute truc(10).
 1. Quelle(s) valeur(s) (est) sont affichée(s)? Quelle valeur est renvoyée?
 2. Même question avec bidule(10).
+Pour ces deux sous questions, écrire les comportements sous forme de commentaire
 
 ### Exercice 4 (Diviseurs d’un nombre triangulaire)
 Un nombre est dit triangulaire d’indice n s’il égal à 1+2+3+···+n.
@@ -60,17 +65,25 @@ Ecrire une fonction qui calcule l'aire d'un cercle en prenant comme paramètre s
 
 ### Exercice 6 (Combien de truc et bidule?)
 Pour les trois scripts suivants, dire ce qui est affiché et combien de fois.
+```python
+# Script 1
 for i in range(3):
  print(’bidule’)
 print(’truc’)
+
+# Script 2 
 for i in range(3):
  print(’bidule’)
 for j in range(4):
  print(’truc’)
+
+# Script 3
 for i in range(3):
  print(’bidule’)
  for j in range(4):
  print(’truc’)
+```
+&Eacute;crire les comportements sous forme de commentaire
 
 ### Exercice 7 (Nombres d’Amstrong)
 On souhaite déterminer les entiers naturels qui sont égaux à la somme des cubes de leurs chiffres. De tels
