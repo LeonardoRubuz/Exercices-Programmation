@@ -3,7 +3,7 @@
 ## Consignes 
 + Pour chaque exercice, créer un fichier .py unique
 + Mettre des commentaires appropriés à chaque étape
-+ Tu ne dois modifier que la branche `dan`.
++ Tu ne dois modifier que la branche `josue`.
 + Les remarques et exercices supplémentaires seront ajoutés dans la branche `main`.
 ## Exercices
 
