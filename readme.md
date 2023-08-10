@@ -1,7 +1,7 @@
 # Exercices PHP
 
 ## Consignes 
-+ Pour chaque exercice, créer un fichier .py unique
++ Pour chaque exercice, créer un fichier .php unique
 + Mettre des commentaires appropriés à chaque étape
 + Tu ne dois modifier que la branche `jordan`.
 + Les remarques et exercices supplémentaires seront ajoutés dans la branche `main`.
@@ -64,17 +64,29 @@ Ecrire une fonction qui calcule l'aire d'un cercle en prenant comme paramètre s
 
 ### Exercice 6 (Combien de truc et bidule?)
 Pour les trois scripts suivants, dire ce qui est affiché et combien de fois.
-for i in range(3):
- print(’bidule’)
-print(’truc’)
-for i in range(3):
- print(’bidule’)
-for j in range(4):
- print(’truc’)
-for i in range(3):
- print(’bidule’)
- for j in range(4):
- print(’truc’)
+```php
+# Script 1
+for ($i = 0; $i < 3; $i++) {
+    echo "bidule";
+}
+echo "truc";
+
+# Script 2
+for ($i = 0; $i < 3; $i++) {
+    echo "bidule";
+}
+for ($j = 0; $j < 4; $j++) {
+    echo "truc";
+}
+
+# Script 3
+for ($i = 0; $i < 3; $i++) {
+    echo "bidule";
+    for ($j = 0; $j < 4; $j++) {
+        echo "truc";
+    }
+}
+```
 
 ### Exercice 7 (Nombres d’Amstrong)
 On souhaite déterminer les entiers naturels qui sont égaux à la somme des cubes de leurs chiffres. De tels
