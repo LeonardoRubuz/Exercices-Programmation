@@ -73,6 +73,29 @@ for i in range(3):
  print(’bidule’)
  for j in range(4):
  print(’truc’)
+ ```javascript
+ // Script 1
+for (const key in Array.from(Array(3), (_, i) => i )) {
+    console.log("bidule ");
+}
+console.log('truc');
+
+ // Script 2
+for (const key in Array.from(Array(3), (_, i) => i )) {
+    console.log("bidule ");
+}
+for (const key in Array.from(Array(4), (_, i) => i )) {
+    console.log("truc");
+}
+ // Script 3
+ for (const key in Array.from(Array(3), (_, i) => i )) {
+    console.log("bidule ");
+    for (const j in Array.from(Array(4), (_, i) => i )) {
+    console.log("truc");
+    }
+}
+
+ ```
 
 ### Exercice 7 (Nombres d’Amstrong)
 On souhaite déterminer les entiers naturels qui sont égaux à la somme des cubes de leurs chiffres. De tels
