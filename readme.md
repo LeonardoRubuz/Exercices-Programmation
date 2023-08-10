@@ -1,7 +1,7 @@
-# Exercices Python
+# Exercices de programmation
 
 ## Consignes 
-+ Pour chaque exercice, créer un fichier .py unique
++ Pour chaque exercice, créer un fichier unique avec l'extension appropriée
 + Mettre des commentaires appropriés à chaque étape
 + Tu ne dois modifier que la branche `ton_nom`.
 + Les remarques et exercices supplémentaires seront ajoutés dans la branche `main`.
