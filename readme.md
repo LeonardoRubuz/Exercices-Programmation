@@ -55,6 +55,10 @@ Par exemple, 4!=1×2×3×4=24=4×3!.
 4. Écrire un script qui calcule 64!
 5. Écrire une fonction factorielle qui prend en argument un entier naturel n et renvoie n!
 
+### Exercice 5
+Ecrire une fonction qui calcule l'aire d'un cercle en prenant comme paramètre son diamètre.
+
+
 ### Exercice 6 (Combien de truc et bidule?)
 Pour les trois scripts suivants, dire ce qui est affiché et combien de fois.
 for i in range(3):
