@@ -114,7 +114,20 @@ On suppose que le texte est bien formé ( un
 espace après chaque ponctuation et aucun espace avant la ponctuation)
 
 ### Exercice 12
+Soit la classe `Date` définie par le diagramme de classe UML suivant :
 
+Date        |
+------------
+jour : int  |
+mois : int  |
+année : int |
+
++ Implémenter cette classe en Python.
+Dans la méthode de construction de la classe, **prévoir** un dispositif pour éviter les dates impossibles (du genre 32/14/2020). Dans ce cas, la création doit provoquer une erreur, chose possible grâce à l'instruction `raise` (documentation à rechercher!)
+
++ Ajouter une méthode `__repr__` permettant d'afficher la date sous la forme "25 janvier 1989". Les noms des mois seront définis en tant qu'attribut de classe à l'aide d'une liste.
+
++ Ajouter une méthode `__lt__` qui permet de comparer deux dates. L'expression `d1 < d2` (`d1` et `d2` étant deux objets de type `Date`) doit grâce à cette méthode renvoyer `True` ou `False`
 
 ### Exercice 13
 
