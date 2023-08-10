@@ -4,7 +4,7 @@
 + Pour chaque exercice, créer un fichier .py unique
 + Mettre des commentaires appropriés à chaque étape
 + Tu ne dois modifier que la branche `ariel`.
-
++ Les remarques et exercices supplémentaires seront ajoutés dans la branche `main`.
 ## Exercices
 
 ### Exercice 1
