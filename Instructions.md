@@ -1,6 +1,8 @@
 # Exercices Python
 
 ## Consignes 
++ Pour chaque exercice, créer un fichier .py unique
++ Mettre des commentaires appropriés à chaque étape
 
 ## Exercices
 
