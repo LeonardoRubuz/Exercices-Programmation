@@ -48,8 +48,7 @@ Par exemple triangle(5) renverra 15.
 2. Écrire une fonction nbre_diviseurs qui renvoie le nombre de diviseurs d’un entier n ∈ N∗.
 Par exemple, les diviseurs de 6 sont 1, 2, 3, 6. Il y a donc 4 diviseurs, ainsi nbre_diviseurs(6) renverra
 4
-3. Écrire un script qui détermine le plus petit nombre triangulaire qui admette au moins 50 diviseurs.
-Exercice 5 (Découverte des factorielles)
+3. (Découverte des factorielles)
 Soit n ∈N∗, on appelle «factorielle n» noté n!, l’entier n!=1×2×···×n avec la convention 0!=1.
 Par exemple, 4!=1×2×3×4=24=4×3!.
 4. Écrire le nombre 15×14×13×12×11 comme un quotient de deux factorielles.
