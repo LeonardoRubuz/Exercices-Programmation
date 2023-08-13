@@ -15,3 +15,12 @@ print(
     ' secondes converties en heures, minutes et secondes deviennent : ',
     str(hours)+' heures '+ str(minutes)+' minutes et '+ str(seconds)+ ' secondes.'
 )
+
+# Alternative : Fonction de conversion de n'importe quel nombre de secondes
+def secondsConverter(given_seconds):
+    hours = given_seconds // 3600
+    minutes = (given_seconds // 60) % 60
+    seconds = given_seconds % 60
+    return print(f' {str(given_seconds)} secondes font : {str(hours)}heures, {str(minutes)}minutes et {str(seconds)}secondes')
+
+secondsConverter(42569)
