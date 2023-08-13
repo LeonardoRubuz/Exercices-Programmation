@@ -29,3 +29,14 @@ def factorielle(n):
         return fact
 
 #print(factorielle(15)/factorielle(10))
+
+def factorielleParité():
+    factPair = factImpair = 1
+    for i in range(1, 101):
+        if i % 2 == 0:
+            factPair *= i
+        elif i % 2 == 1:
+            factImpair *= i
+    print('Factoriel des nombres pairs : ',str(factPair), '\n', 'Factoriel des nombres impairs : ', str(factImpair))
+
+#factorielleParité()    
