@@ -15,5 +15,6 @@ def nbre_diviseurs(n):
         if n % i == 0:
             compte+=1
     return compte
+#print(nbre_diviseurs(7))
 
-#print(nbre_diviseurs(7)) 
+ 
