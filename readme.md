@@ -49,11 +49,10 @@ Par exemple, les diviseurs de 6 sont 1, 2, 3, 6. Il y a donc 4 diviseurs, ainsi 
 Exercice 5 (Découverte des factorielles)
 Soit n ∈N∗, on appelle «factorielle n» noté n!, l’entier n!=1×2×···×n avec la convention 0!=1.
 Par exemple, 4!=1×2×3×4=24=4×3!.
-1. Écrire le nombre 15×14×13×12×11 comme un quotient de deux factorielles.
-2. Exprimer à l’aide de factorielles les deux produits suivants : 2×4×6×···×100 et 1×3×5×···×99.
-3. Combien y-a-t-il d’anagrammes du mot fleur? Et du mot tennis?
-4. Écrire un script qui calcule 64!
-5. Écrire une fonction factorielle qui prend en argument un entier naturel n et renvoie n!
+4. Écrire le nombre 15×14×13×12×11 comme un quotient de deux factorielles.
+5. Exprimer à l’aide de factorielles les deux produits suivants : 2×4×6×···×100 et 1×3×5×···×99.
+6. Écrire un script qui calcule 64!
+7. Écrire une fonction factorielle qui prend en argument un entier naturel n et renvoie n!
 
 ### Exercice 5
 Ecrire une fonction qui calcule l'aire d'un cercle en prenant comme paramètre son diamètre.
