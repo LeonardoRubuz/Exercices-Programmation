@@ -17,4 +17,15 @@ def nbre_diviseurs(n):
     return compte
 #print(nbre_diviseurs(7))
 
- 
+# Quotient de deux factorielles
+def factorielle(n):
+    fact = 1
+    if n == 0:
+        fact = 1
+        return fact
+    else:
+        for i in range(1, n+1):
+            fact *= i
+        return fact
+
+#print(factorielle(15)/factorielle(10))
