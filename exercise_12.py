@@ -28,4 +28,4 @@ class Date:
         return f"{self.jour}/{self.mois}/{self.année}"
 
     def __repr__(self):
-        return f"Date({self.jour}, {self.mois}, {self.année})"
+        return f"Date({self.jour}, {self.nomsMois[self.mois - 1]}, {self.année})"
