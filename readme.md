@@ -97,7 +97,7 @@ donc
 somme des cubes de ses chiffres.
 Par exemple, somme_cubes_chiffres(256) devra renvoyer
 2&sup3; + 5&sup3; + 6&sup3; = 349.
-2. Écrire un script qui détermine les nombres d’Amstrong inférieurs à 10 000.
+2. Écrire un script qui détermine les nombres d’Amstrong inférieurs à 10 000. 
 
 ### Exercice 8
 Ecrire un programme en langage Python qui demande à l’utilisateur de saisir un nombre entier
