@@ -13,3 +13,6 @@
 + Exercice 11: 
 + Exercice 12: 
 + Exercice 13: 
+
+## Remarques générales
++ Il y a du désordre dans le type de fichiers.
